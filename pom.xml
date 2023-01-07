@@ -18,7 +18,33 @@
         <!--Maven sayesinde projemiz icin gerekli olan tum kutuphanelerin
         github adreslerini buraya yazmamız yeterli olacak
         github adreslerini bulma ve bu projenin anlayacagı halde buraya eklemesini
-        mvnrepository.com dan yapacagız-->
+        mvnrepository.com dan yapacagız
+
+        pom.xml projemize ekleyecegimiz kutuphaneleri yönetmemizi sağlar
+        pom.xml maven projesinin kalbidir.
+
+        pom.xml 'e ekleyeceğimiz dependency ve plug-in 'ler sayesinde
+        projemizi cok daha efektif olarak yönetebiliriz
+
+        -->
+
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+
+
 
     </dependencies>
 
