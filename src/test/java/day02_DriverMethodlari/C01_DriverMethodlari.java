@@ -32,7 +32,7 @@ public class C01_DriverMethodlari {
         //gittiginiz sayfanın url'ini https://www.amazon.com/ oldugunu test edin
 
         String expectedUrl="https://www.amazon.com/";
-        String actualUrl= driver.getCurrentUrl();
+        String actualUrl= driver.getCurrentUrl();// currenturl=geçerli url
  //actual degerler her zaman driverla alınır
 
         if (expectedUrl.equals(actualUrl)){   //beklenen url gerçeklesen url e eşitse
